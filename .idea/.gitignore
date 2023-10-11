@@ -6,3 +6,9 @@
 # Datasource local storage ignored files
 /dataSources/
 /dataSources.local.xml
+
+*.txt   #忽略所有的.txt结尾的文件
+！lib.txt  #但lib.txt除外
+/temp  #进忽略项目根目录下的TODO文件，不包括其他目录temp
+bulid/  #忽略bulid目录下的所有文件
+doc/*.txt #会忽略doc/notes.txt 但是不包括doc/sever/arch.txt
